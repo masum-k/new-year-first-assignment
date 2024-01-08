@@ -32,7 +32,8 @@
     font-size: 72px;
     font-weight: 900;
     margin-top: 15px;
-
+    margin-left: 25%;
+    width: 632px;
 }
 
 .header-container {
@@ -80,51 +81,189 @@
     margin-top: 15px;
     margin-bottom: 0px;
 }
+
 /* 1st main-section end */
 
 /* 2nd main-section-image start */
 
-.Vectorrr {
-    position: relative;
+.Vector-container {
+    background-image: url(../resources/Vectorrr.png);
     margin: auto;
     width: 1320px;
     height: 600px;
-}
-.twenty-four{
-    position: absolute;
-    top: 13%;
-    right: 10%;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-.vector-text {
-    position: absolute;
-    top: 25%;
-    font-family: Inter;
-    padding-left: 125px;
+
+.welcome-section {
+    padding: 126px 0px 0px 126px;
 }
 
-.vector-text h2 {
+.party-greeting {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7.04px;
-    margin-bottom: 0px;
+    line-height: 88px;
+    margin: 0px 0px 24px 0px;
+    width: 642px;
 }
 
-.vector-text p {
+.party-description {
     color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 20px;
-    width: 690px;
+    margin: 0px 0px 50px 0px;
+    width: 697px;
+    margin-top: 0px;
 }
 
-.vector-text h3 {
+.twenty-four {
+    justify-content: center;
+    height: 500px;
+    margin: 50px 0px 0px 35px;
+}
+
+.join-now {
     color: #FFF;
-    text-align: left;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 20px;
-    margin-top: 50px;
+    margin-left: 32px;
+    text-transform: uppercase;
 }
+
+
+/* 2nd main-section image end */
+
+/* 3rd section image start */
+.bg-color {
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.event {
+    width: 550px;
+    height: 170px;
+    background-color: #fff;
+    color: #F00;
+    text-align: center;
+    padding: 100px 385px 214px 385px;
+    box-shadow: 0px 250px 80px inset #ffe7e7;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    border-radius: 20px;
+
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin: 48px 0px 110px 0px;
+
+}
+
+/* 3rd section image end */
+
+/* 4th section image start */
+.best-offer-container {
+    margin: auto;
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse {
+    margin-top: 100px;
+    border-radius: 364.844px;
+    padding-left: 100px;
+    margin-bottom: 110px;
+}
+
+#circle {
+    border-radius: 364.844px;
+    border: 15px solid #F00;
+    padding: 30px 30px 30px 30px;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+.coming-soon h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 22px;
+}
+
+.coming-soon h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.coming-soon p {
+    width: 393px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.happy-new-year h3 {
+    width: 126px;
+    height: 58px;
+    margin-bottom: 100px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 250px 0px 0px 50%;
+    
+    margin-bottom: 16px;
+    /* padding-bottom: 30px; */
+}
+
+.happy-new-year p {
+    width: 276px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 50%;
+    margin-bottom: 43px;
+}
+
+.vector{
+    margin-left: 50%;
+}
+
+
+/* 4th section image end */
