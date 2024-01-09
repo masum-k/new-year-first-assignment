@@ -63,11 +63,13 @@
 
 .Vector-container {
     background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 20px;
     margin: auto;
     width: 1320px;
     height: 600px;
-    background-repeat: no-repeat;
-    display: flex;
+    box-shadow: 200px 0px 180px 30px #070211 inset;
 }
 
 
